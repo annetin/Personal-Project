@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 20px;
+}
+
+
+/* Banner Styles */
+.banner {
+    height: 400px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+}
+
+.index-banner {
+    background-image: url('../images/background.jpeg');
+    background-position: 0% 50%;
+    image-rendering: -webkit-optimize-contrast; 
+}
+
+.ship-banner {
+    background-image: url('../images/ships_background.jpg');
+    background-position: center;
+    height: 500px;
+}
+
+.about-banner {
+    background-image: url('../images/about_banner_image.jpeg');
+    background-position: center;
+    background-blend-mode: normal;
+}
+
+/* google images */
+
+.harmony-banner {
+    background-image: url('../images/harmonyship.jpeg');
+    background-position: center;
+    
+}
+
+.allure-banner {
+    background-image: url('../images/Allure-banner.jpg');
+    background-position: center;    
+    
+}
+
+.meraviglia-banner {
+    background-image: url('../images/meraviglia.jpg');
+    background-position: center;
+        
+}
+
+.quantum-banner {
+    background-image: url('../images/Quantum_of_the_Seas2.jpg');
+    background-position: center;
+}
+
+    /* Nav Styles */
+nav ul {
+    display: flex;
+    list-style-type: none;
+    font-size: 1.3rem;
+    margin: 1px;
+    background-color: #0077ff;
+}    
+
+nav li {
+    display: inline-block;
+    width: 100px;
+    margin-right: auto;
+    padding: 12px 38px;
+    text-align: center;
+    text-decoration-color: #ffffff;
+    background-color: #0077ff;
+}  
+
+nav li a {
+    color: #fff;
+}
+
+/* change the link color to #e7e7e7 on hover */ 
+nav li a:hover {
+    color: #ff1dce;
+    padding: 2px 2px;
+}   
+
+/* Table */
+.table {
+    margin: 50px;
+    align-self: center;
+}
+
+
+table, th, td {
+    font-family: 'Opens Sans', serif;
+    font-size: 20px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 15px;
+} 
+
+thead th {
+    font-size: 30px;
+}
+
+tr:nth-child(even) {
+    background-color: #b3edff;
+}
+
+
+
+h1 {
+  color: #FFFFFF;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 80px;
+  font-weight: 200px;
+  line-height: 100px;
+  text-align: center;
+  letter-spacing: 2px; 
+  margin: 0;
+}  
+
+h2 {
+  color: #0000FF;
+  font-family: 'Open Sans', sans-serif;
+  text-align: left;
+  font-size: 38px;
+  font-weight: 100px;
+  margin: 15px 45px;
+}
+
+h3 {
+    color: #0000FF;
+    font-family: 'Open Sans', sans-serif;
+    text-align: left;
+    font-size: 38px;
+    font-weight: 100px;
+    margin: 15px 45px;
+
+}
+
+h4 {
+    color: #0000FF;
+    font-family: 'Open Sans', sans-serif;
+    text-align: left;
+    font-size: 38px;
+    font-weight: 100px;
+    margin: 15px 45px;
+
+}
+
+
+li {
+    margin-left: 50px;
+    list-style:square;
+    font-size: 20px; 
+    padding: 6px;
+    width: 50%;
+    background-color: #7fffd4;
+}
+
+.full-img {
+    width: 50%;
+    border-radius: 30%;
+    padding: 15px;
+    position: center;
+    margin-right: 60px;
+}
+
+.oasis-img {
+    width: 50%;
+    height: 350px;
+    margin: 50px;
+    border-color: #fff;
+    position: inherit;
+}
+
+.anthem-img {
+    width: 50%;
+    height: 350px;
+    margin: 50px;
+    border-color: #fff;
+    position: fixed;
+}
+
+
+p {
+  color: #000000;
+  font-family: 'Roboto Slab', serif;
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 24px;
+  margin: 0 auto;
+  text-align: justify;
+  width: 90%;
+  padding: 8px;    
+}
+
+footer {
+  margin-top: 1rem;
+}
+
+footer p {
+  text-align: center;
+  font-size: .8rem;    
+}
