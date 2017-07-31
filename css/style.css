@@ -190,7 +190,7 @@ li {
     height: 350px;
     margin: 50px;
     border-color: #fff;
-    position: fixed;
+    position: inherit;
 }
 
 
